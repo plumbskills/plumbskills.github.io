@@ -1,0 +1,104 @@
+body {
+  font-family: Montserrat,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+section {
+  padding: 0;
+}
+
+section:nth-child(2n + 1) {
+  background-color: lightgray;
+  background-color: #C0E7F9;
+}
+
+.container {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+h2 {
+  margin-bottom: 1em;
+  background-color: #2e455c;
+  color: whitesmoke;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  max-width: 125px;
+}
+
+.hero-image {
+  background-image: url(/assets/images/plumbskills.png);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 3 em;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 5em !important;
+  color: darkturquoise;
+  color: whitesmoke;
+}
+
+footer {
+  background-color: #2e455c;
+  min-height: 100px;
+  color: whitesmoke;
+}
+
+.hir {
+  background-color: whitesmoke;
+  padding: 15px;
+}
+
+.hir h3 a {
+  color: #2e455c;
+  text-decoration: none;
+}
+
+.hir-datum {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.hir-kep img {
+  max-width: 100%;
+}
+
+#hir-1 {
+  /*     background-image: url("/assets/images/ES2021_Graz_S15.png");
+    background-repeat: none;
+    background-size: cover;
+ */
+}
+
+nav a {
+  color: #2e455c !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#kapcsolat a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+/*# sourceMappingURL=main.css.map */
