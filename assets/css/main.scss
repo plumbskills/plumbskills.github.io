@@ -1,4 +1,9 @@
 
+$plubmskills-darkblue: #2e455c;
+$plumbskills-lightblue: #CFECFA;
+$plumbskills-lightbeige: #F6F1EC;
+
+
 body {
     font-family: Montserrat,sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -9,8 +14,8 @@ section {
 }
 
 section:nth-child(2n + 1) {
-    background-color: lightgray;
-    background-color: #C0E7F9;
+    
+    background-color: $plumbskills-lightbeige;
 }
 
 .container {
@@ -18,10 +23,20 @@ section:nth-child(2n + 1) {
     padding-bottom: 3em;
 }
 
+h1 {
+    font-size: 5em !important;
+    color: whitesmoke;
+    color: $plubmskills-darkblue;
+    font-weight: 700;
+    .h1-vekony {
+        font-weight: 500;
+    };
+}
+
 h2 {
     margin-bottom: 1em;
-    background-color:#2e455c;
-    color: whitesmoke;
+    background-color:$plubmskills-darkblue;
+    color: $plumbskills-lightblue;
     padding: 10px;
     text-transform: uppercase;
     font-weight: 600;
@@ -32,7 +47,7 @@ h2 {
 }
 
 .hero-image {
-    background-image: url(/assets/images/plumbskills.png);
+    background-image: url(/assets/images/plubskills_hero_2.png);
     background-size: cover;
     height: 500px;
     background-position: center;
@@ -48,26 +63,38 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-h1 {
-    font-size: 5em !important;
-    color: darkturquoise;
+
+
+
+
+footer {
+    background-color: $plubmskills-darkblue;
+    min-height: 100px;
     color: whitesmoke;
 }
 
-footer {
-    background-color: #2e455c;
-    min-height: 100px;
-    color: whitesmoke;
+.hir-lead {
+    position: relative;
+    .reszletek {
+        position: absolute;
+        bottom: 0;
+        left:10px;
+    }
+
 }
 
 .hir {
     background-color: whitesmoke;
     padding: 15px;
+    margin-bottom: 10px;
     h3 a {
-        color: #2e455c;
+        color: $plubmskills-darkblue;
         text-decoration: none;
-    }
+        font-size: 1.3rem;
+    };
+
 }
+
 
 .hir-datum {
     font-size: 0.8rem;
@@ -85,7 +112,7 @@ footer {
  */}
 
  nav a {
-     color: #2e455c !important;
+     color: $plubmskills-darkblue !important;
      text-transform: uppercase;
      font-weight: 500;
      font-size: 0.9rem
@@ -98,4 +125,8 @@ footer {
  p {
     font-size: 0.9rem;
     line-height: 1.7rem;
+ }
+
+ .btn-secondary {
+    /* background-color: #D69E6B; */
  }

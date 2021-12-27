@@ -8,8 +8,7 @@ section {
 }
 
 section:nth-child(2n + 1) {
-  background-color: lightgray;
-  background-color: #C0E7F9;
+  background-color: #F6F1EC;
 }
 
 .container {
@@ -17,10 +16,21 @@ section:nth-child(2n + 1) {
   padding-bottom: 3em;
 }
 
+h1 {
+  font-size: 5em !important;
+  color: whitesmoke;
+  color: #2e455c;
+  font-weight: 700;
+}
+
+h1 .h1-vekony {
+  font-weight: 500;
+}
+
 h2 {
   margin-bottom: 1em;
   background-color: #2e455c;
-  color: whitesmoke;
+  color: #CFECFA;
   padding: 10px;
   text-transform: uppercase;
   font-weight: 600;
@@ -31,7 +41,7 @@ h2 {
 }
 
 .hero-image {
-  background-image: url(/assets/images/plumbskills.png);
+  background-image: url(/assets/images/plubskills_hero_2.png);
   background-size: cover;
   height: 500px;
   background-position: center;
@@ -48,26 +58,32 @@ h2 {
           transform: translate(-50%, -50%);
 }
 
-h1 {
-  font-size: 5em !important;
-  color: darkturquoise;
-  color: whitesmoke;
-}
-
 footer {
   background-color: #2e455c;
   min-height: 100px;
   color: whitesmoke;
 }
 
+.hir-lead {
+  position: relative;
+}
+
+.hir-lead .reszletek {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
 .hir {
   background-color: whitesmoke;
   padding: 15px;
+  margin-bottom: 10px;
 }
 
 .hir h3 a {
   color: #2e455c;
   text-decoration: none;
+  font-size: 1.3rem;
 }
 
 .hir-datum {
@@ -100,5 +116,9 @@ nav a {
 p {
   font-size: 0.9rem;
   line-height: 1.7rem;
+}
+
+.btn-secondary {
+  /* background-color: #D69E6B; */
 }
 /*# sourceMappingURL=main.css.map */
