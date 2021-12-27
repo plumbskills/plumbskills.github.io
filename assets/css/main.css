@@ -59,6 +59,11 @@ h2 {
           transform: translate(-50%, -50%);
 }
 
+.hero-text .szlogen {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
 footer {
   background-color: #2e455c;
   min-height: 100px;
@@ -121,5 +126,25 @@ p {
 
 .btn-secondary {
   /* background-color: #D69E6B; */
+}
+
+/*  @media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+    .nav > .container {
+        max-width: 1200px;
+    }
+} */
+.cell-img img {
+  max-width: 100%;
+}
+
+.team-row {
+  margin-top: 25px;
+}
+
+.social-icons img {
+  height: 40px;
 }
 /*# sourceMappingURL=main.css.map */
